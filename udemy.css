@@ -161,13 +161,16 @@ ul{
 .section4{
     margin: 30px;
 }
+.top{
+    margin-right: 15px;
+}
 .categories{
     display: flex;
     justify-content: space-around;
 }
 .top-img{
     padding-top: 25px;
-    padding-right: 25px;
+    padding-right: 20px;
     margin-bottom: 20px;
     transition: transform .2s;
 }

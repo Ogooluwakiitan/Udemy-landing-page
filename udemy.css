@@ -37,6 +37,7 @@ margin:0 10px;
 }
 .nav-btn{
     padding-right: 10px;
+    align-content: center;
 }
 .login{
     padding: 9px;
@@ -295,6 +296,7 @@ justify-content: center;
     /* footer */
 .footer-wrapper{
 background-color: black;
+opacity: 0.8;
 color: white;
 padding: 20px 30px ;
 font-size: 13px;
@@ -313,14 +315,20 @@ font-size: 13px;
     color: white;
     padding-top: 5px; 
 } 
-.foot > a:hover{
+.foot > ul, a:hover{
 text-decoration: underline;
 }
 .footer-btn{
-    width: 140px;
+    display: flex;
+    align-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    gap: 5px;
+    font-size: 15px;
+    width: 130px;
     height: 38px;
     margin-top: 15px;
-    margin-left: 270px;
+    margin-left: 300px;
     border: 1px solid white;
     background-color: black;
     color: white;

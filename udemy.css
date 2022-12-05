@@ -140,12 +140,20 @@ padding:30px;
 .python > h5{
     font-size: 15px;
 }
+.python > p{
+    font-size: 12px;
+}
+.prices{
+    display: flex;
+    gap: 8px;
+}
 ul{
     list-style-type: none;
 }
 /*  */
 .section-4{
     padding: 25px;
+    margin-top: 15px;
 }
 .student{
     display: flex;
@@ -158,6 +166,9 @@ ul{
 }
 .bootcamp > h5{
     font-size: 14px;
+}
+.bootcamp > p{
+    font-size: 12px;
 }
 .section4{
     margin: 35px;
